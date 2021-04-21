@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "hotels",
+  "collectionName": "apartments",
   "info": {
-    "name": "hotel",
-    "description": ""
+    "name": "apartments"
   },
   "options": {
     "increments": true,
@@ -18,7 +17,7 @@
       "type": "string"
     },
     "price": {
-      "type": "integer"
+      "type": "decimal"
     },
     "img": {
       "type": "string"
@@ -29,7 +28,7 @@
     "rating": {
       "type": "decimal"
     },
-    "guests": {
+    "guest": {
       "type": "integer"
     },
     "available": {

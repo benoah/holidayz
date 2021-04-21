@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "hotels",
+  "collectionName": "banners",
   "info": {
-    "name": "hotel",
+    "name": "banner",
     "description": ""
   },
   "options": {
@@ -11,29 +11,17 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
-    "price": {
-      "type": "integer"
-    },
     "img": {
       "type": "string"
     },
-    "location": {
+    "img_one": {
       "type": "string"
     },
-    "rating": {
-      "type": "decimal"
+    "img_two": {
+      "type": "string"
     },
-    "guests": {
-      "type": "integer"
-    },
-    "available": {
-      "type": "date"
+    "img_third": {
+      "type": "string"
     }
   }
 }

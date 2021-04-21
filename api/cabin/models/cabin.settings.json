@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "hotels",
+  "collectionName": "cabins",
   "info": {
-    "name": "hotel",
-    "description": ""
+    "name": "Cabin"
   },
   "options": {
     "increments": true,
@@ -11,6 +10,9 @@
     "draftAndPublish": true
   },
   "attributes": {
+    "img": {
+      "type": "string"
+    },
     "title": {
       "type": "string"
     },
@@ -18,22 +20,10 @@
       "type": "string"
     },
     "price": {
-      "type": "integer"
-    },
-    "img": {
-      "type": "string"
+      "type": "decimal"
     },
     "location": {
       "type": "string"
-    },
-    "rating": {
-      "type": "decimal"
-    },
-    "guests": {
-      "type": "integer"
-    },
-    "available": {
-      "type": "date"
     }
   }
 }
