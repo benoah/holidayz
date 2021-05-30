@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookings",
+  "info": {
+    "name": "booking"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "location": {
+      "type": "string"
+    },
+    "guests": {
+      "type": "integer"
+    },
+    "dates": {
+      "type": "datetime"
+    },
+    "animal": {
+      "type": "boolean"
+    }
+  }
+}
